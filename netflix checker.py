@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 print ('[+]---Netflix Account Checker v0.2---[+]')
+print ('[+]---Powered By Emin INC---[+]')
 time.sleep(2)
 
 # Geçerli ve geçersiz hesapları tutacak değişkenler
