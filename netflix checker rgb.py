@@ -8,6 +8,7 @@ import time
 console = Console()
 
 console.print("[bold cyan][+]---Netflix Account Checker v0.2---[+][/bold cyan]")
+console.print("[bold cyan][+]---Powered By Emin INC.--[+][/bold cyan]")
 time.sleep(2)
 
 # Geçerli ve geçersiz hesapları tutacak değişkenler
