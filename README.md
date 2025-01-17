@@ -1,6 +1,18 @@
 # Netflix-Gen 2.0
 # Owner By Emin INC.
 
+# netflix generator.py: Netflix hesaplarını oluşturmak için kullanılan ana Python betiği.
+
+# netflix checker.py: Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.
+
+# netflix checker rgb.py: [RGB Olarak çalıştırılan] Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.
+
+# netflix.txt: Muhtemelen oluşturulan veya kontrol edilen Netflix hesaplarının listelendiği bir metin dosyası.
+
+# netflix_worksAcc.txt: Muhtemelen geçerli ve çalışan Netflix hesaplarının listelendiği bir metin dosyası.
+
+# listAcc.txt: Muhtemelen kontrol edilecek veya oluşturulacak hesapların listelendiği bir metin dosyası.
+
 Bu Python kodu, Selenium ve bazı ek kütüphaneleri kullanır. Gerekli kütüphaneler şunlardır:
 
 1. **Selenium**: Web otomasyonu yapmak için kullanılır. Web sayfalarını açma, form doldurma, butonlara tıklama ve sayfa üzerinde işlem yapma işlemleri için gereklidir.
