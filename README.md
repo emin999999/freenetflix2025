@@ -1,4 +1,4 @@
-# Netflix-Gen 2.0
+# Netflix Generator 2.0
 # Owner By Emin INC.
 
 
