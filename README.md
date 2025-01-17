@@ -1,5 +1,5 @@
 # Netflix Generator 2.0
-# Owner By Emin INC.
+# Emin INC.
 
 
 
@@ -12,7 +12,7 @@
 
 # Bu proje Bedava Netflix hesabı elde etmeye yarar. Eğlence amaçlıdır. Kötü amaçlı kullanmayınız!
 
-
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 # Dosyaların işevleri;
