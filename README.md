@@ -3,31 +3,31 @@
 
 
 
-
+# This project is Turkish please Use Translate! https://translate.google.com/
 
 
 ![Netflix](https://i.pinimg.com/originals/bb/74/04/bb74046420c4c992b8cabc6e667abe40.gif)
 
 
 
+# Bu proje Bedava Netflix hesabı elde etmeye yarar. Eğlence amaçlıdır. Kötü amaçlı kullanmayınız!
 
 
 
 
+# Dosyaların işevleri;
 
+**netflix generator.py: Netflix hesaplarını oluşturmak için kullanılan ana Python betiği.**
 
+**netflix checker.py: Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.**
 
-# netflix generator.py: Netflix hesaplarını oluşturmak için kullanılan ana Python betiği.
+**netflix checker rgb.py: [RGB Olarak çalıştırılan] Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.**
 
-# netflix checker.py: Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.
+**netflix.txt: oluşturulan veya kontrol edilen Netflix hesaplarının listelendiği bir metin dosyası.**
 
-# netflix checker rgb.py: [RGB Olarak çalıştırılan] Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.
+**netflix_worksAcc.txt: geçerli ve çalışan Netflix hesaplarının listelendiği bir metin dosyası.**
 
-# netflix.txt: oluşturulan veya kontrol edilen Netflix hesaplarının listelendiği bir metin dosyası.
-
-# netflix_worksAcc.txt: geçerli ve çalışan Netflix hesaplarının listelendiği bir metin dosyası.
-
-# listAcc.txt: kontrol edilecek veya oluşturulacak hesapların listelendiği bir metin dosyası.
+**listAcc.txt: kontrol edilecek veya oluşturulacak hesapların listelendiği bir metin dosyası.**
 
 Bu Python kodu, Selenium ve bazı ek kütüphaneleri kullanır. Gerekli kütüphaneler şunlardır:
 
