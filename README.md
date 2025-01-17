@@ -23,11 +23,11 @@
 
 # netflix checker rgb.py: [RGB Olarak çalıştırılan] Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.
 
-# netflix.txt: Muhtemelen oluşturulan veya kontrol edilen Netflix hesaplarının listelendiği bir metin dosyası.
+# netflix.txt: oluşturulan veya kontrol edilen Netflix hesaplarının listelendiği bir metin dosyası.
 
-# netflix_worksAcc.txt: Muhtemelen geçerli ve çalışan Netflix hesaplarının listelendiği bir metin dosyası.
+# netflix_worksAcc.txt: geçerli ve çalışan Netflix hesaplarının listelendiği bir metin dosyası.
 
-# listAcc.txt: Muhtemelen kontrol edilecek veya oluşturulacak hesapların listelendiği bir metin dosyası.
+# listAcc.txt: kontrol edilecek veya oluşturulacak hesapların listelendiği bir metin dosyası.
 
 Bu Python kodu, Selenium ve bazı ek kütüphaneleri kullanır. Gerekli kütüphaneler şunlardır:
 
