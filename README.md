@@ -3,58 +3,57 @@
 
 
 
-# This project is Turkish please Use Translate! https://translate.google.com/
+# Please For Understand in all languages Use Translate! -----> https://translate.google.com/
 
 
 ![Netflix](https://i.pinimg.com/originals/bb/74/04/bb74046420c4c992b8cabc6e667abe40.gif)
 
 
 
-# Bu proje Bedava Netflix hesabı elde etmeye yarar. Eğlence amaçlıdır. Kötü amaçlı kullanmayınız!
+# This project is used to get a free Netflix account. It is for entertainment purposes. Do not use it for malicious purposes!
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$
 
+# Functions of the files;
 
-# Dosyaların işevleri;
+**netflix generator.py: Main Python script used to create Netflix accounts.**
 
-**netflix generator.py: Netflix hesaplarını oluşturmak için kullanılan ana Python betiği.**
+**netflix checker.py: Python script used to check created Netflix accounts.**
 
-**netflix checker.py: Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.**
+**netflix checker rgb.py: [Run as RGB] Python script used to check created Netflix accounts.**
 
-**netflix checker rgb.py: [RGB Olarak çalıştırılan] Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.**
+**netflix.txt: A text file listing created or checked Netflix accounts.**
 
-**netflix.txt: oluşturulan veya kontrol edilen Netflix hesaplarının listelendiği bir metin dosyası.**
+**netflix_worksAcc.txt: A text file listing valid and working Netflix accounts.**
 
-**netflix_worksAcc.txt: geçerli ve çalışan Netflix hesaplarının listelendiği bir metin dosyası.**
+**listAcc.txt: A text file listing accounts to be checked or created.**
 
-**listAcc.txt: kontrol edilecek veya oluşturulacak hesapların listelendiği bir metin dosyası.**
+This Python code uses Selenium and some additional libraries. The required libraries are:
 
-Bu Python kodu, Selenium ve bazı ek kütüphaneleri kullanır. Gerekli kütüphaneler şunlardır:
+1. **Selenium**: Used for web automation. It is required for opening web pages, filling out forms, clicking buttons and performing actions on the page.
 
-1. **Selenium**: Web otomasyonu yapmak için kullanılır. Web sayfalarını açma, form doldurma, butonlara tıklama ve sayfa üzerinde işlem yapma işlemleri için gereklidir.
+2. **WebDriver**: Used to control a web browser with Selenium. In this example, `chromedriver` is required because the Chrome browser is used. If you are going to use another browser (Firefox, Edge etc.), you will need to download the appropriate WebDriver for it.
 
-2. **WebDriver**: Selenium ile bir web tarayıcısını kontrol etmek için kullanılır. Bu örnekte, Chrome tarayıcısı kullanıldığı için `chromedriver` gereklidir. Başka bir tarayıcı kullanacaksanız (Firefox, Edge vb.), ona uygun WebDriver'ı indirmeniz gerekecek.
+3. **time**: Used to make the code wait for a certain amount of time (for example, to wait for the page to load).
 
-3. **time**: Kodun belirli bir süre beklemesini sağlamak için kullanılır (örneğin, sayfanın yüklenmesini beklemek için).
-
-### Gerekli Kütüphaneler:
+### Required Libraries:
 1. **Selenium**:
-   ```bash
-   pip install selenium
-   ```
+```bash
+pip install selenium
+```
 
 2. **WebDriver (Chrome)**:
-   - WebDriver için [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) indirmeniz gerekir. Chrome sürümünüze uygun olan sürümü indirip, bilgisayarınıza kurmalısınız.
-   
-   - WebDriver için ayrıca `webdriver-manager` kullanabilirsiniz. Bu, otomatik olarak gerekli WebDriver sürümünü indirip kurmanıza yardımcı olur:
-     ```bash
-     pip install webdriver-manager
-     ```
+- For WebDriver, you need to download [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/). You should download the version that is suitable for your Chrome version and install it on your computer.
 
-3. **time**: Python'un yerleşik bir modülü olduğu için, ayrıca yüklemeniz gerekmez.
+- You can also use `webdriver-manager` for WebDriver. This will automatically help you download and install the required WebDriver version:
+```bash
+pip install webdriver-manager
+```
 
-### ChromeDriver ve Selenium Kullanımı:
-Eğer `webdriver-manager` kullanarak ChromeDriver'ı otomatik olarak indirip kurmak isterseniz, aşağıdaki gibi kodu güncelleyebilirsiniz:
+3. **time**: Since it is a built-in module of Python, you do not need to install it separately.
+
+### Using ChromeDriver and Selenium:
+If you want to automatically download and install ChromeDriver using `webdriver-manager`, you can update the code as follows:
 
 ```python
 from selenium import webdriver
@@ -63,12 +62,12 @@ from selenium.webdriver.common.keys import Keys
 import time
 from webdriver_manager.chrome import ChromeDriverManager
 
-# ChromeDriver'ı otomatik olarak indirin ve başlatın
+# Download and start ChromeDriver automatically
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://www.netflix.com/login')
 ```
 
-Bu şekilde, ChromeDriver'ı manuel olarak indirip kurmanıza gerek kalmaz, `webdriver-manager` sizin için otomatik olarak indirip çalıştırır.
+In this way, you do not need to download and install ChromeDriver manually, `webdriver-manager` will automatically download and run it for you.
 
-### Sonuç:
-Bu kütüphaneleri ve araçları yükledikten sonra, Selenium ve WebDriver'ı sorunsuz bir şekilde kullanabilirsiniz.
+### Conclusion:
+After installing these libraries and tools, you can use Selenium and WebDriver without any problems.
