@@ -1,6 +1,22 @@
 # Netflix-Gen 2.0
 # Owner By Emin INC.
 
+
+
+
+
+
+![Netflix](https://tenor.com/tr/view/netflix-gif-2170283377868013570)
+
+
+
+
+
+
+
+
+
+
 # netflix generator.py: Netflix hesaplarını oluşturmak için kullanılan ana Python betiği.
 
 # netflix checker.py: Oluşturulan Netflix hesaplarını kontrol etmek için kullanılan Python betiği.
