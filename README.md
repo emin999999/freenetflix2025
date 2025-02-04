@@ -1,4 +1,4 @@
-# Netflix Generator&Checker 2.0
+# Netflix 2.0
 # Emin INC.
 
 **Legal Issues: Violating Netflix's terms of use may result in your account being permanently terminated. We strongly recommend you turn on a VPN!**
